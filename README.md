@@ -7,3 +7,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 The project was done by :
 
 ### `Jordi Hermes` ### `Jonah Duvillard`
+
+## Comment lancer le projet
+
+Apres la commander "Git Clone" pour recuperer le projet en local
+Effectuer les commandes suivantes pour le lancer
+
+### `Npm Install`
+
+suivi de
+
+### `Npm Start`
