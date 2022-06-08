@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div>
             <Navigation />
-            <h1>Bienvenue sur le site React du challenge</h1>
+            <h1>Evaluation React</h1>
         </div>
     );
 };
