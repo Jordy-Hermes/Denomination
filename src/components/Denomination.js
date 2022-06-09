@@ -22,6 +22,7 @@ const Denomination = () => {
     return (
         <div>
             <Navigation />
+            <div className='content'>
             <p><Input onChange={handleChange} type="text" required></Input></p>
             {message !== '' && (<p>{message}</p>)}
             <p>Nombre de 100 : {resultat[5]}</p>
@@ -33,6 +34,7 @@ const Denomination = () => {
             <p>{amount}</p>
             <p><Button onClick={()=>dispatch(giveChange(amount))}>Convertir</Button></p>
             <p><Button onClick={()=>dispatch(reset())}>Reset</Button></p>
+            </div>
         </div>
     );
 };

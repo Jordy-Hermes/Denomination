@@ -25,7 +25,7 @@ const reducer = (state = stateInit, action = {}) => {
                     ...state,
                     resultat : [0,0,0,0,0,0],
                     number : parseInt(action.payload),
-                    message:"blablabal"
+                    message:"Veuillez entrer un nombre"
                 }
             }
 
